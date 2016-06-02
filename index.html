@@ -1,62 +1,72 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <link href="css/custom.css" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <!--Google Fontts URLs-->
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Fira+Sans:700" rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Rambla|Fira+Sans:400italic,400" rel='stylesheet' type='text/css'>
-    <!-- END! Google WebFonts-->
-    <title>Ishan Jain</title>
+    <meta charset="UTF-8">
+    <title>Ishan Jain | Passionate Web Developer</title>
+    <link href="css/animate.css" type="text/css" rel="stylesheet">
+    <link href="css/font-awesome.css" type="text/css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<!--Google Analytics Code-->
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-75927954-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
-<!--Google Analytics end! -->
 <body>
-<div class="homeNav">
-    <nav class="nav-custom">
-        <ul class="nav-elements" id="navdata">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a class="button" href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="container homeContent" id="home">
-        <p class="homeHeading">ISHAN JAIN</p>
-        <p class="homeSubHeading">Soon to be a Full Stack Web Developer</p>
-        <div class="homeButtons">
-            <a class="button" style="margin-left: 1%;" href="#resume">Resume</a>
-            <a class="button" style="margin-left: 1%;" href="#contact">Contact</a>
-        </div>
-        <a href="#about">
-            <div class="downArrow">
-                <i class="fa fa-angle-down fa-4x arrowRotate" style="color: #fff;"></i>
+    <section class="introduction" id="introduction">
+        <section class="brand" id="brand">
+            <h1 class="animated fadeInUp">HELLO I'M ISHAN</h1>
+            <h2 class="animated fadeInUp">AN ASPIRING WEB DEVELOPER</h2>
+        </section>
+        <footer class="intro-footer animated fadeInUp" id="intro-footer">
+            <div class="intro-footer-text">Scroll down</div>
+            <a href="#about" class="intro-footer-arrow-down"><i class="fa fa-angle-down fa-2x"></i></a>
+        </footer>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="center about-header-block animated fadeInUp">
+                <img class="profile-pic" src="images/400x200.png">
+                <h1>HI THERE</h1>
             </div>
-        </a>
-    </div>
-</div>
-<div class="aboutParent" id="about">
-    <div class="aboutText">
-         <p class="aboutHeading">A brief background</p>
-        <p class="aboutStory">Hey, Ishan Jain here, Computer Science first year student in Roorkee, India. I love programming mainly in JS. For now, I am working on small projects. I am also learning ReactJS and NodeJS. This site is still incomplete. I am working on a new design and I will build it with React this time. So, Just come back after sometime.
-        But hey just have a look at my <a href="http://github.com/ishanjain28">Github Profile</a> and check out my first project "<a href="http://ishan-ja.in/Random-Quote-Machine">Random Quote Machine</a>" built completely in ReactJS. I love challenges and solving problems. So, if you have one just send me a email <a href="mailto:ishanjain28@gmail.com">here </a>. I am quite good at JS now and I can help you with that. <br>Good day and Have fun!</div>
-</div>
+            <div class="center about-content-block animated fadeInUp">
+                <p>I am 17 years old web developer based in Roorkee, India. I have a strong passion for anything web related, mostly in developing web applications.</p>
+            </div>
+            <div class="hr-bar"><i class="fa "></i></div>
+        </div>
+    </section>
+    <section class="interests" id="interests">
+        <div class="container">
+            <section class="interest-header">
+                <h1>WHAT I DO</h1>
+            </section>
+            <ul class="columns animated fadeInUp">
+                <li class=" column column1">
+                    <i class="fa fa-code fa-4x"></i><br>
+                    <h1>DEVELOPMENT</h1>
+                    <br>
+                    <p>I develop apps with Javascript. I like fiddling around with MEAN Stack. I am also learning several JS libraries like React.</p>
+                </li>
+                <li class="column column2">
+                    <i class="fa fa-globe fa-4x"></i>
+                    <h1>HOBBIES</h1>
+                    <br>
+                    <p>I like to play Stealth or First Person Shooter Games. I love watching Crime Related shows and reading books from Dan Brown or Paulo Coelho.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="container">
+            <section class="skills-header animated fadeInUp">
+                <h1>I'M GOOD AT</h1>
+            </section>
+            <section class="skills-body">
+                <ul class="skills-body-ul animated fadeInUp ">
+                    <li class="skills-body-li first-li">JAVASCRIPT</li>
+                    <li class="skills-body-li">NODE.JS</li>
+                    <li class="skills-body-li">CSS</li>
+                    <li class="skills-body-li">GIT</li>
+                </ul>
+            </section>
+        </div>
+    </section>
 </body>
 </html>
