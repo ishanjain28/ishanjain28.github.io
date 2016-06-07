@@ -74,6 +74,10 @@ html, body{
     font-family: 'open sans', sans-serif;
     background: #f5f5f5;
 }
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
 .about-header-block h1 {
     margin: 0 auto;
     font-size: 1.5em;
@@ -162,36 +166,18 @@ html, body{
 .skills-body-ul {
     list-style-type: none;
     display: flex;
-    background-color: #353535;
+}
+.first-li   {
+    border-left: 1px solid #fff;
 }
 .skills-body-li {
-    margin: 4px;
-    background-color: #3f3f3f;
     padding: 30px;
-    color: #fff;
+    border-right: 1px solid #fff;
     width: 20%;
     text-align: center;
     font-family: 'open sans', sans-serif;
     letter-spacing: 0.1em;
-}
-.proposal-contact   {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    margin: 0 auto;
-    text-align: center;
-    font-family: 'open sans', sans-serif;
-    border: 1px solid #3f3f3f;
-}
-.proposal-contact, .proposal-contact:visited{
-    text-decoration: none;
-    color: #000;
-}
-.proposal-contact:hover {
-    text-decoration: none;
-    color: #fff;
-
+    font-size: 25px;
 }
 @media (min-width: 320px)   {
     .about-header-block h1  {
@@ -202,19 +188,6 @@ html, body{
     }
     .skills-header  {
         width: 60%;
-    }
-    .skills-body-ul {
-        font-size: 11px;
-        background: #6F6F6F;
-        align-items: center;
-        flex-direction: column;
-    }
-    .proposal-body p    {
-        font-size: 14px;
-        width: 65%;
-    }
-    .proposal-contact   {
-        font-size: 14px;
     }
 }
 @media (min-width: 480px)   {
@@ -227,19 +200,6 @@ html, body{
     .skills-header  {
         width: 45%;
     }
-    .skills-body-ul {
-        font-size: 14px;
-        background: #6F6F6F;
-        align-items: center;
-        flex-direction: column;
-    }
-    .proposal-body p    {
-        font-size: 17px;
-        width: 60%;
-    }
-    .proposal-contact   {
-        font-size: 15px;
-    }
 }
 @media (min-width: 768px)   {
     .about-header-block h1  {
@@ -251,22 +211,8 @@ html, body{
     .skills-header  {
         width: 33%;
     }
-    .skills-body-ul {
-        font-size: 21px;
-        background: #6F6F6F;
-        align-items: center;
-        flex-direction: column;
-    }
-    .proposal-body p    {
-        font-size: 20px;
-        width: 50%;
-    }
-    .proposal-contact   {
-        font-size: 18px;
-        width: 15%;
-    }
 }
-@media (min-width: 1100px) {
+@media (min-width: 960px) {
     .about-header-block h1 {
         width: 12%;
     }
@@ -276,18 +222,5 @@ html, body{
     .skills-header  {
         width: 25%;
     }
-    .skills-body-ul {
-        font-size: 25px;
-        background: rgba(40, 40, 40, 0.5);
-        align-items: center;
-        flex-direction: row;
-    }
-    .proposal-body p    {
-        font-size: 24px;
-        width: 45%;
-    }
-    .proposal-contact   {
-        font-size: 24px;
-        width: 10%;
-    }
+
 }
