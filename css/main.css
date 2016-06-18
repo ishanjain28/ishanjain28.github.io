@@ -59,20 +59,23 @@ html, body{
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
-.intro-footer-arrow-down    {
+.intro-footer a{
     text-decoration: none;
     color: #fff;
 }
-.intro-footer-arrow-down:hover    {
+.intro-footer a:hover   {
     color: rgba(255, 255, 255, 0.5);
 }
-.intro-footer-arrow-down:visited {
+.intro-footer a:visited {
     color: rgb(255, 255, 255);
 }
 .about{
     padding: 100px;
     font-family: 'open sans', sans-serif;
     background: #f5f5f5;
+}
+.about-header-block {
+    text-align: center;
 }
 .about-header-block h1 {
     margin: 0 auto;
@@ -174,33 +177,52 @@ html, body{
     font-family: 'open sans', sans-serif;
     letter-spacing: 0.1em;
 }
-.proposal-contact   {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    margin: 0 auto;
+.projects   {
+    padding: 100px;
+    background: rgba(240, 240, 240, 0.5);
+    color: #303030;
+}
+.project-header {
     text-align: center;
+    margin: 0 auto;
+    border-bottom: 1px solid #a0a0a0;
+}
+.project-header h1  {
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 0.2em;
     font-family: 'open sans', sans-serif;
-    border: 1px solid #3f3f3f;
+    padding: 10px;
+    text-align: center;
 }
-.proposal-contact, .proposal-contact:visited{
-    text-decoration: none;
-    color: #000;
-}
-.proposal-contact:hover {
-    text-decoration: none;
-    color: #fff;
 
+.slide  {
+    border: 2px solid #000;
+    height: 768px;
+    margin: 45px;
+    position: relative;
 }
+.back   {
+    position: absolute;
+    left: 10px;
+    top: 354px;
+}
+.forward    {
+    position: absolute;
+    right: 10px;
+    top: 354px;
+}
+.loc-group  {
+    position: absolute;
+    bottom: 20px;
+    left: 48%;
+}
+
 @media (min-width: 320px)   {
     .about-header-block h1  {
         width: 60%;
     }
-    .interest-header    {
-        width: 60%;
-    }
-    .skills-header  {
+    .header    {
         width: 60%;
     }
     .skills-body-ul {
@@ -209,22 +231,12 @@ html, body{
         align-items: center;
         flex-direction: column;
     }
-    .proposal-body p    {
-        font-size: 14px;
-        width: 65%;
-    }
-    .proposal-contact   {
-        font-size: 14px;
-    }
 }
 @media (min-width: 480px)   {
     .about-header-block h1  {
         width: 25%;
     }
-    .interest-header    {
-        width: 45%;
-    }
-    .skills-header  {
+    .header    {
         width: 45%;
     }
     .skills-body-ul {
@@ -233,22 +245,12 @@ html, body{
         align-items: center;
         flex-direction: column;
     }
-    .proposal-body p    {
-        font-size: 17px;
-        width: 60%;
-    }
-    .proposal-contact   {
-        font-size: 15px;
-    }
 }
 @media (min-width: 768px)   {
     .about-header-block h1  {
         width: 20%;
     }
-    .interest-header    {
-        width: 33%;
-    }
-    .skills-header  {
+    .header    {
         width: 33%;
     }
     .skills-body-ul {
@@ -257,23 +259,12 @@ html, body{
         align-items: center;
         flex-direction: column;
     }
-    .proposal-body p    {
-        font-size: 20px;
-        width: 50%;
-    }
-    .proposal-contact   {
-        font-size: 18px;
-        width: 15%;
-    }
 }
 @media (min-width: 1100px) {
     .about-header-block h1 {
         width: 12%;
     }
-    .interest-header    {
-        width: 25%;
-    }
-    .skills-header  {
+    .header    {
         width: 25%;
     }
     .skills-body-ul {
@@ -281,13 +272,5 @@ html, body{
         background: rgba(40, 40, 40, 0.5);
         align-items: center;
         flex-direction: row;
-    }
-    .proposal-body p    {
-        font-size: 24px;
-        width: 45%;
-    }
-    .proposal-contact   {
-        font-size: 24px;
-        width: 10%;
     }
 }
