@@ -195,10 +195,8 @@ html, body{
     padding: 10px;
     text-align: center;
 }
-
-.slide  {
-    border: 2px solid #000;
-    height: 768px;
+.slides  {
+    height: 600px;
     margin: 45px;
     position: relative;
 }
@@ -217,7 +215,9 @@ html, body{
     bottom: 20px;
     left: 48%;
 }
-
+.center {
+    text-align: center;
+}
 @media (min-width: 320px)   {
     .about-header-block h1  {
         width: 60%;

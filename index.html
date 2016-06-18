@@ -79,22 +79,42 @@
             </section>
         </div>
     </section>
+    <script type="text/javascript">
+        var slideIndex = 1;
+
+        showSlide(slideIndex);
+        function switchSlide(n) {
+            showSlide(slideIndex += n);
+        }
+
+
+        function showSlide(n) {
+            var i;
+            var slides = document.getElementsByClassName('projectSlide');
+            if(n > slides.length)    {slideIndex = 1 }
+            if(n < 1)   {slideIndex = slides.length}
+            for(i = 0; i < slides.length; i++)   {
+                slides[i].style.display = 'none';
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+    </script>
     <section class="projects" id="projects">
         <div class="container">
             <section class="project-header header animated fadeInUp">
                 <h1>I'VE BUILT</h1>
             </section>
-            <section class="slide" id="slide">
-                <div class="back animated fadeInLeft">
-                    <i class="fa fa-angle-left fa-4x"></i>
-                </div>
-                <div class="forward animated fadeInRight">
-                    <i class="fa fa-angle-right fa-4x"></i>
-                </div>
+            <section class="slides" id="slides">
+                    <a class="back animated fadeInLeft" onclick="switchSlide(-1);"><i class="fa fa-angle-left fa-4x"></i></a>
+                    <a class="forward animated fadeInRight" onclick="switchSlide(+1);"><i class="fa fa-angle-right fa-4x"></i></a>
                 <div class="loc-group animated fadeInUp">
-                    <i class="fa fa-circle"></i>
-                    <i class="fa fa-circle"></i>
-                    <i class="fa fa-circle"></i>
+                    <i class="slide fa fa-circle-o"></i>
+                    <i class="slide fa fa-circle-o"></i>
+                    <i class="slide fa fa-circle-o"></i>
+                </div>
+                <div class="center" id="projectImage">
+                    <img height="600" style="margin: 0 auto;" class="projectSlide animated fadeIn" src="images/rqm.png">
+                    <img height="600" style="display: none; margin: 0 auto;" class="projectSlide animated fadeIn" src="images/mountain.jpg" >
                 </div>
             </section>
         </div>
