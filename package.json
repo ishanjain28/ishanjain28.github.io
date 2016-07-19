@@ -1,0 +1,20 @@
+{
+  "name": "ishanjain28.github.io",
+  "version": "1.0.0",
+  "description": "jquery",
+  "start": "node server.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishanjain28/ishanjain28.github.io.git"
+  },
+  "author": "Ishan Jain <ishanjain28@gmail.com> (github.com/ishanjain28)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishanjain28/ishanjain28.github.io/issues"
+  },
+  "homepage": "https://github.com/ishanjain28/ishanjain28.github.io#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
