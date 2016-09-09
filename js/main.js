@@ -1,39 +1,45 @@
 
+// hbc -> Header Background Canvas
 $(document).ready(function () {
-    // var svg = document.querySelector('svg');
+    // No idea why the f*** this works. It's not right and shouldn't work!
+    $('.nav--tab').css('width', $(window).width());
+    // Weird code.^
 
-    // var pt = svg.createSVGPoint();
+    // headerBackground.css('background-color', "red");
 
-    // function cursorPoint(evt) {
-    //     pt.x = evt.clientX; pt.y = evt.clientY;
 
-    //     return pt.matrixTransform(svg.getScreenCTM().inverse());
+    var header = document.getElementById('header--background')
 
-    // }
+    header.width = $(".header-background--container").width();
+    header.height = $(".header-background--container").height();
 
-    // svg.addEventListener('mousemove', function (evt) {
-    //     console.log(document.elementFromPoint(cursorPoint(evt).x, cursorPoint(evt).y));
-    // }, false);
-    var width = $(window).width();
-    $('.nav--tab').css('width', width);
+    var hbc = header.getContext('2d');
+    hbc.strokeStyle = "#000";
+    hbc.lineWidth = 1;
 
-    $('.hobby-heading').css('border-bottom', '1px solid #000');
-
+    for (var i = 0; i < header.width; i += 15) {
+        drawCross(hbc, i);
+    }
+    hbc.stroke();
 });
-function aboutLayout() {
-    $('.about').css('display', 'flex');
+
+
+function changeLayout(activeSection) {
+    var sections = ['about', 'project', 'contact'];
+
+    sections.map(function (val) {
+        if (val == activeSection) {
+            $('#' + activeSection).show();
+        } else {
+            $("#" + val).hide();
+        }
+    });
 
 }
-function projectLayout() {
-    $('.about').css('display', 'none');
-    $('.project').css('height', '72vh');
-    $('.header-background--container').css('height', '18vh');
 
-
-}
-
-function contactLayout() {
-    $('.about').css('display', 'none');
-    $('.header-background--container').css('height', '35vh');
-    $('.contact').css('height', '55vh');
+function drawCross(hbc, i) {
+    hbc.moveTo(0 + i, 0);
+    hbc.lineTo(10 + i, 10);
+    hbc.moveTo(0 + i, 10);
+    hbc.lineTo(10 + i, 0);
 }
