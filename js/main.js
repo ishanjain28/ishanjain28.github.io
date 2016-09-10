@@ -25,23 +25,24 @@ function redraw() {
 
     var hbc = header.getContext('2d');
 
-    hbc.font = "150px Arial";
+    hbc.font = "150px Arial ";
 
     hbc.textAlign = "center";
 
+    hbc.fillStyle = "#fff";
     hbc.fillText("ISHAN JAIN", header.width / 2, header.height / 1.6);
+    hbc.strokeStyle = "grey";
+    for (var rows = 0; rows < header.height; rows += 12) {
 
-    for (var rows = 0; rows < header.height; rows += 15) {
+        for (var cols = 0; cols < header.width; cols += 12) {
 
-        for (var cols = 0; cols < header.width; cols += 15) {
+            hbc.moveTo(-5 + cols, -5 + rows);
 
-            hbc.moveTo(0 + cols, 0 + rows);
+            hbc.lineTo(8 + cols, 8 + rows);
 
-            hbc.lineTo(10 + cols, 10 + rows);
+            hbc.moveTo(-5 + cols, 8 + rows);
 
-            hbc.moveTo(0 + cols, 10 + rows);
-
-            hbc.lineTo(10 + cols, 0 + rows);
+            hbc.lineTo(8 + cols, -5 + rows);
 
         }
 
@@ -67,11 +68,7 @@ $(document).ready(function () {
 
     initialize();
 
-    // headerBackground.css('background-color', "red");
-
-    hbc.strokeStyle = "#000";
-
-    hbc.lineWidth = 1;
+    $(".header-background--container").css('background-color', "black");
 
 });
 
