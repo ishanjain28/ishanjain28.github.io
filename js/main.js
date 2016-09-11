@@ -36,13 +36,13 @@ function redraw() {
 
         for (var cols = 0; cols < header.width; cols += 12) {
 
-            hbc.moveTo(-5 + cols, -5 + rows);
+            hbc.moveTo(0 + cols, 0 + rows);
 
             hbc.lineTo(8 + cols, 8 + rows);
 
-            hbc.moveTo(-5 + cols, 8 + rows);
+            hbc.moveTo( 0 + cols, 8 + rows);
 
-            hbc.lineTo(8 + cols, -5 + rows);
+            hbc.lineTo(8 + cols, 0 + rows);
 
         }
 
