@@ -30,8 +30,11 @@ function redraw() {
     hbc.textAlign = "center";
 
     hbc.fillStyle = "#fff";
+
     hbc.fillText("ISHAN JAIN", header.width / 2, header.height / 1.6);
+
     hbc.strokeStyle = "grey";
+
     for (var rows = 0; rows < header.height; rows += 12) {
 
         for (var cols = 0; cols < header.width; cols += 12) {
@@ -40,7 +43,7 @@ function redraw() {
 
             hbc.lineTo(8 + cols, 8 + rows);
 
-            hbc.moveTo( 0 + cols, 8 + rows);
+            hbc.moveTo(0 + cols, 8 + rows);
 
             hbc.lineTo(8 + cols, 0 + rows);
 

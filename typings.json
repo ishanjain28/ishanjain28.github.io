@@ -1,4 +1,7 @@
 {
   "name": "ishanjain28.github.io",
-  "dependencies": {}
+  "dependencies": {},
+  "globalDependencies": {
+    "express": "registry:dt/express#4.0.0+20160708185218"
+  }
 }
