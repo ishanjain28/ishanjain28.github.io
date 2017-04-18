@@ -1,0 +1,47 @@
+baseURL = "http://ishanjain.me/"
+languageCode = "en-us"
+title = "Ishan Jain"
+theme = "ghostwriter"
+copyright = "Ishan Jain"
+
+[Author]
+	name = "Ishan Jain"
+	profile = "https://github.com/ishanjain28"
+
+[Taxonomies]
+	tags = "Programming, Golang, Python, Nodejs"
+
+[Params]
+	intro = true
+	headline = "Programmer, Student"
+	github = "https://github.com/ishanjain28"
+	twitter = "https://twitter.com/ishanjain28"
+	email = "ishanjain28@gmail.com"
+	shareTwitter = true
+	shareFacebook = true
+	shareGooglePlus = true
+	shareLinkedIn = true
+	dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+	post = "/:year/:month/:day/:filename"
+
+[[menu.main]]
+	name = "Blog"
+	url = "/"
+	weight = 1
+
+[[menu.main]]
+	name = "Projects"
+	url = "/projects"
+	weight = 2
+
+[[menu.main]]
+	name = "Contact"
+	url = "/page/contact"
+	weight = 3
+
+[[menu.main]]
+	name = "About"
+	url = "/about"
+	weight = 4
