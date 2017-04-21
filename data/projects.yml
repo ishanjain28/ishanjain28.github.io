@@ -1,0 +1,13 @@
+name: Projects
+source:
+  - icon: fa fa-globe
+    description: This project shows Quotes fetched from different APIs.
+    link: https://ishanjain28.github.io/random-quote-machine
+
+  - icon: fa fa-globe
+    description: A simple Breakout Game built with Javascript.
+    link: https://ishanjain28.github.io/breakout-game
+
+  - icon: fa fa-globe
+    description: A Wikipedia Viewer that can search wikis on Wikipedia or you can use it to get a random wiki to read. 
+    link: https://ishanjain28.github.io/wikipedia-viewer

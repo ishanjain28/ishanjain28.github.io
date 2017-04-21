@@ -1,47 +1,42 @@
 baseURL = "http://ishanjain.me/"
 languageCode = "en-us"
 title = "Ishan Jain"
-theme = "ghostwriter"
+theme = "hugo-sustain"
+disable404 = false
+
 copyright = "Ishan Jain"
 
 [Author]
 	name = "Ishan Jain"
 	profile = "https://github.com/ishanjain28"
 
-[Taxonomies]
-	tags = "Programming, Golang, Python, Nodejs"
+[params]
+	avatar = "profile.jpg"
+	author = "Ishan Jain"
+	description = "Programmer and Student"
 
-[Params]
-	intro = true
-	headline = "Programmer, Student"
-	github = "https://github.com/ishanjain28"
-	twitter = "https://twitter.com/ishanjain28"
+[params.social]
+	github = "ishanjain28"
+	twitter = "ishanjain28"
 	email = "ishanjain28@gmail.com"
-	shareTwitter = true
-	shareFacebook = true
-	shareGooglePlus = true
-	shareLinkedIn = true
-	dateFormat = "Mon, Jan 2, 2006"
 
 [Permalinks]
-	post = "/:year/:month/:day/:filename"
+	post = "/:year/:month/:day/:slug"
 
 [[menu.main]]
 	name = "Blog"
-	url = "/"
-	weight = 1
+	url = "/blog/"
+	weight = 100
+	identifier = "blog"
 
 [[menu.main]]
 	name = "Projects"
-	url = "/projects"
-	weight = 2
+	url = "/projects/"
+	weight = 200
+	identifer = "projects"
 
 [[menu.main]]
-	name = "Contact"
-	url = "/page/contact"
-	weight = 3
-
-[[menu.main]]
-	name = "About"
-	url = "/about"
-	weight = 4
+	name = "Resume"
+	url = "/resume/"
+	weight = 400
+	identifer = "resume"
