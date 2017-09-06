@@ -51,3 +51,7 @@ This is a collection of projects that I've worked on until now.
 
 **URL Shortner** - A URL Shortner Microservice that creates a short base62 encoded id for every url. It is written in Golang and uses SQLite to store urls.
 [Demo](https://fcc-shorten-urls.herokuapp.com) and [Github](https://github.com/ishanjain28/url-shortner)
+
+# Miscellaneous
+**Perceptual hash** - A library to find the percent similarity between two images. It create a Difference Hash of both images and finds the hamming distance between those hashes to calculate the similarity percentage.
+[Github](https://github.com/ishanjain28/perceptualhash)
