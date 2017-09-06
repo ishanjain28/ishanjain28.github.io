@@ -6,15 +6,15 @@ theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
-#disqusShortname = "XXX"
+disqusShortname = "ishanjain28"
 #googleAnalytics = "XXX"
 
 [Params]
-  subtitle = "Programmer and Student"
+  subtitle = "Programmer / Student / Gopher"
   logo = "img/profile.jpg"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
-  commit = true
+  #commit = "https://github.com/ishanjain28/blog/master/"
   rss = true
   comments = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
@@ -28,7 +28,8 @@ pygmentCodeFences = true
 #[[Params.bigimg]]
 #  src = "img/hexagon.jpg"
 #  desc = "Hexagon"
-
+copyright = 2017
+  
 [Author]
   name = "Ishan Jain"
   website = "ishanjain.me"
@@ -48,12 +49,12 @@ pygmentCodeFences = true
 
 [[menu.main]]
     name = "Projects"
-    url = "projects/"
+    url = "projects/projects/"
     weight = 2
 
 [[menu.main]]
     name = "About"
-    url = "about/"
+    url = "page/about/"
     weight = 3
 
 [[menu.main]]
