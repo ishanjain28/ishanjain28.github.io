@@ -1,42 +1,62 @@
-baseURL = "http://ishanjain.me/"
-languageCode = "en-us"
+baseurl = "http://ishanjain.me"
+DefaultContentLanguage = "en"
+#DefaultContentLanguage = "ja"
 title = "Ishan Jain"
-theme = "hugo-sustain"
-disable404 = false
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
 
-copyright = "Ishan Jain"
+[Params]
+  subtitle = "Programmer and Student"
+  logo = "img/profile.jpg"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
 
 [Author]
-	name = "Ishan Jain"
-	profile = "https://github.com/ishanjain28"
-
-[params]
-	avatar = "profile.jpg"
-	author = "Ishan Jain"
-	description = "Programmer and Student"
-
-[params.social]
-	github = "ishanjain28"
-	twitter = "ishanjain28"
-	email = "ishanjain28@gmail.com"
-
-[Permalinks]
-	post = "/:year/:month/:day/:slug"
+  name = "Ishan Jain"
+  website = "ishanjain.me"
+  email = "ishanjain28@gmail.com"
+  github = "ishanjain28"
+  twitter = "ishanjain28"
+  reddit = "ishanjain28"
+  linkedin = "ishan-jain-ba63b671"
+  stackoverflow = "users/5805469/ishan-jain"
+  spotify = "ishanjain28"
+  telegram = "ishanjain28"
 
 [[menu.main]]
-	name = "Blog"
-	url = "/blog/"
-	weight = 100
-	identifier = "blog"
+    name = "Blog"
+    url = ""
+    weight = 1
 
 [[menu.main]]
-	name = "Projects"
-	url = "/projects/"
-	weight = 200
-	identifer = "projects"
+    name = "Projects"
+    url = "projects/"
+    weight = 2
 
 [[menu.main]]
-	name = "Resume"
-	url = "/resume/"
-	weight = 400
-	identifer = "resume"
+    name = "About"
+    url = "about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 4

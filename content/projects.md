@@ -5,3 +5,5 @@ tags: ["projects"]
 title: "Projects"
 showpagemeta: false
 ---
+
+##### New projects should appear here shortly
