@@ -50,3 +50,4 @@ This is a collection of projects that I've worked on until now.
 [Demo](https://fcc-headers-ms.herokuapp.com/whoami) and [Github](https://github.com/ishanjain28/fcc-headers-ms)
 
 **URL Shortner** - A URL Shortner Microservice that creates a short base62 encoded id for every url. It is written in Golang and uses SQLite to store urls.
+[Demo](https://fcc-shorten-urls.herokuapp.com) and [Github](https://github.com/ishanjain28/url-shortner)
