@@ -1,12 +1,13 @@
 ---
 author: "Ishan Jain"
-date: 2017-09-06
-linktitle: Hello World
-title: Hello World
+date: 2017-10-30
+linktitle: Encrypted Cookies based sessions in Go
+title: Encrypted Cookies based sessions in Go
 type: post
+draft: true
 highlight: true
 ---
 
 
 
-# Hello world!
+[WIP]Encrypted Cookies based sessions in Go
