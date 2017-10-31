@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Ishan Jain</title>
+    <link>https://www.ishanjain.me/projects/</link>
+    <description>Recent content in Projects on Ishan Jain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>ishanjain28@gmail.com (Ishan Jain)</managingEditor>
+    <webMaster>ishanjain28@gmail.com (Ishan Jain)</webMaster>
+    <copyright>2017</copyright>
+    <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.ishanjain.me/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Projects</title>
+      <link>https://www.ishanjain.me/projects/projects/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      <author>ishanjain28@gmail.com (Ishan Jain)</author>
+      <guid>https://www.ishanjain.me/projects/projects/</guid>
+      <description>This is a collection of projects that I&amp;rsquo;ve worked on until now.
+Websites Wikipedia Viewer - It is a Wikipedia wiki Viewer that I built when working on freecodecamp.com&amp;rsquo;s Front end Coding Challenges. Demo and Github
+Random Quote Machine - This application shows Random Quotes from different categories. I built this when working on freecodecamp.com&amp;rsquo;s Front end Coding Challenges. Demo and Github
+Bots Burnbit - This is a Telegram bot that converts Direct Download Links to Torrents.</description>
+    </item>
+    
+  </channel>
+</rss>
