@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Ishan Jain</title>
-    <link>https://www.ishanjain.me/page/</link>
+    <link>https://ishanjain28.github.io/page/</link>
     <description>Recent content in Pages on Ishan Jain</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>ishanjain28@gmail.com (Ishan Jain)</managingEditor>
     <webMaster>ishanjain28@gmail.com (Ishan Jain)</webMaster>
     <copyright>2017</copyright>
     
-	<atom:link href="https://www.ishanjain.me/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ishanjain28.github.io/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About me</title>
-      <link>https://www.ishanjain.me/page/about/</link>
+      <link>https://ishanjain28.github.io/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ishanjain28@gmail.com (Ishan Jain)</author>
-      <guid>https://www.ishanjain.me/page/about/</guid>
+      <guid>https://ishanjain28.github.io/page/about/</guid>
       <description>My name is Ishan Jain and I am a Student and Part-Time Backend Engineer. I&amp;rsquo;ve been programming for the past 4 years and absolutely love building stuff. Currently, My Friend and I, run multiple Fintech related websites like Clonefolio. I did Front End Web Development for a short period of about a year but didn&amp;rsquo;t liked it. So, I switched my focus towards Backend and Distributed Systems and I am glad I made this choice.</description>
     </item>
     

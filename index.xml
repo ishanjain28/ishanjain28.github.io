@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ishan Jain</title>
-    <link>https://www.ishanjain.me/</link>
+    <link>https://ishanjain28.github.io/</link>
     <description>Recent content on Ishan Jain</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>ishanjain28@gmail.com (Ishan Jain)</managingEditor>
@@ -10,15 +10,15 @@
     <copyright>2017</copyright>
     <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate>
     
-	<atom:link href="https://www.ishanjain.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ishanjain28.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Projects</title>
-      <link>https://www.ishanjain.me/projects/projects/</link>
+      <link>https://ishanjain28.github.io/projects/projects/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       <author>ishanjain28@gmail.com (Ishan Jain)</author>
-      <guid>https://www.ishanjain.me/projects/projects/</guid>
+      <guid>https://ishanjain28.github.io/projects/projects/</guid>
       <description>This is a collection of projects that I&amp;rsquo;ve worked on until now.
 Websites Wikipedia Viewer - It is a Wikipedia wiki Viewer that I built when working on freecodecamp.com&amp;rsquo;s Front end Coding Challenges. Demo and Github
 Random Quote Machine - This application shows Random Quotes from different categories. I built this when working on freecodecamp.com&amp;rsquo;s Front end Coding Challenges. Demo and Github
@@ -27,10 +27,10 @@ Bots Burnbit - This is a Telegram bot that converts Direct Download Links to Tor
     
     <item>
       <title>About me</title>
-      <link>https://www.ishanjain.me/page/about/</link>
+      <link>https://ishanjain28.github.io/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ishanjain28@gmail.com (Ishan Jain)</author>
-      <guid>https://www.ishanjain.me/page/about/</guid>
+      <guid>https://ishanjain28.github.io/page/about/</guid>
       <description>My name is Ishan Jain and I am a Student and Part-Time Backend Engineer. I&amp;rsquo;ve been programming for the past 4 years and absolutely love building stuff. Currently, My Friend and I, run multiple Fintech related websites like Clonefolio. I did Front End Web Development for a short period of about a year but didn&amp;rsquo;t liked it. So, I switched my focus towards Backend and Distributed Systems and I am glad I made this choice.</description>
     </item>
     
