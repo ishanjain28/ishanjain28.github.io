@@ -1,0 +1,63 @@
+baseurl = "https://ishanjain28.github.io"
+DefaultContentLanguage = "en"
+title = "Ishan Jain"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+disqusShortname = "www-ishanjain-me"
+#googleAnalytics = "XXX"
+
+[Params]
+  subtitle = "Programmer / Student / Gopher"
+  logo = "img/profile.jpg"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  #commit = "https://github.com/ishanjain28/blog/master/"
+  rss = true
+  comments = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+copyright = 2017
+  
+[Author]
+  name = "Ishan Jain"
+  website = "ishanjain.me"
+  email = "ishanjain28@gmail.com"
+  github = "ishanjain28"
+  twitter = "ishanjain28"
+  reddit = "ishanjain28"
+  steam = "ishanjain28"
+  linkedin = "ishan-jain-ba63b671"
+  stackoverflow = "users/5805469/ishan-jain"
+  spotify = "ishanjain28"
+  telegram = "ishanjain28"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "projects/projects/"
+    weight = 2
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 4

@@ -1,0 +1,29 @@
+name: Projects
+source:
+  - icon: fa fa-globe
+    description: This project shows Quotes fetched from different APIs.
+    link: https://ishanjain28.github.io/random-quote-machine
+
+  - icon: fa fa-globe
+    description: A simple Breakout Game built with Javascript.
+    link: https://ishanjain28.github.io/breakout-game
+
+  - icon: fa fa-globe
+    description: A Wikipedia Viewer that can search wikis on Wikipedia or you can use it to get a random wiki to read. 
+    link: https://ishanjain28.github.io/wikipedia-viewer
+
+  - icon: fa fa-globe
+    description: A Library to compare two images. It uses perceptual hashing to compare two images and returns percent similarity.
+    link: https://github.com/ishanjain28/perceptual-hash
+
+  - icon: fa fa-globe
+    description: URL Shortner, It returns a shorturl of the url that you provided, Uses SQLite3 in backend to store mapping of urls. 
+    link: https://github.com/ishanjain28/url-shortner
+
+  - icon: fa fa-globe
+    description: An Image Filters Library. It has various filters like Grayscaling, Red only, Green only that can be applied to a JPEG or PNG Image.
+    link: https://github.com/ishanjain28/goimagexp
+
+  - icon: fa fa-globe
+    description: DOTA2 Lan Gaming Event Registration System. It uses Instamojo as payment gateway and NodeJS in Backend.
+    link: https://dota2-lan.herokuapp.com
